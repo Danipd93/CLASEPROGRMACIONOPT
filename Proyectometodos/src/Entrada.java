@@ -9,10 +9,11 @@ public class Entrada {
         despedir();
         int numero;
         Operaciones operacionesMatematicas = new Operaciones();
-        operacionesMatematicas.sumar (1, 4);
-        operacionesMatematicas.restar(5, 2);
-        operacionesMatematicas.multiplicacion(5, 2);
-        operacionesMatematicas.division(20, 2);
+        //operacionesMatematicas.sumar (1, 4);
+        //operacionesMatematicas.restar(5, 2);
+        //operacionesMatematicas.multiplicacion(5, 2);
+        //operacionesMatematicas.division(20, 2);
+        operacionesMatematicas.validarNumero(numeroValidar);
     }
 
     public static void saludar(String nombre){
