@@ -16,4 +16,8 @@ public class Operaciones {
         int resultado= op1/op2;
         System.out.println("El resultado de la division "+resultado);
     }
+    public boolean validarNumero (int numeroValidar){
+        return numeroValidar>0;
+
+    }
 }
